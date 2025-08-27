@@ -244,6 +244,7 @@ header ul a{
     border-radius: 20px;
     transition: 0.3s;
 }
+
 .card img{
     width: 60%;
     height: 50%;
@@ -258,20 +259,42 @@ header ul a{
     z-index: 1;
     color: lightgray;
 }
+
+.card h1.availability{
+    position: absolute;
+    margin: 0;
+    bottom: 25%;
+    left: 5%;
+    font-size: 25px;
+    z-index: 1;
+    color: lightgray;
+}
 .card p{
     position: absolute;
-    bottom: 3%;
+    bottom: 5%;
     left: 5%;
     z-index: 1;
     max-width: 350px;
     color: gray;
     font-size: 14px;
     line-height: 20px;
+    width: auto;
+}
+.card p.down{
+    position: absolute;
+    bottom: 3%;
+    left: 5%;
+    z-index: 1;
+    max-width: 500px;
+    color: gray;
+    font-size: 14px;
+    line-height: 20px;
+    width: 500px;
 }
 .card video{
     margin-top: 10%;
-    width: 70%;
-    height: 50%;
+    width: 55%; 
+    height: 45%;
     object-fit: cover;
     mix-blend-mode: lighten;
 }
@@ -297,13 +320,13 @@ header ul a{
 }
 .card:nth-child(3){
     grid-row: span 2;
-    height: 83vh;
+    height: 83vh;   
 }
 .card:nth-child(3) p{
     bottom: 12%;
 }
 .card:nth-child(3) h1{
-    bottom: 21%;
+    bottom: 25%;
 }
 .card:nth-child(4){
     grid-column: span 2;
@@ -370,7 +393,8 @@ header ul a{
     text-wrap: nowrap;
     margin-bottom: 10px;
     margin-top: 0;
-    max-width: 450px;
+    max-width: 400px;
+    min-width: 300px;
 }
 .project-info p{
     width: 90%;
@@ -378,6 +402,7 @@ header ul a{
     min-width: 300px;
     margin-bottom: 50px;
     margin-top: 0;
+    min-width: 300px;
 }
 .project-info button{
     color: white;
@@ -393,6 +418,8 @@ header ul a{
     box-shadow: 0 0 15px #727fde86;
     opacity: 0.7;
 }
+
+
 
 
 
