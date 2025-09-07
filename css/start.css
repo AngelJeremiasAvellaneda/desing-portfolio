@@ -1,0 +1,30 @@
+.info-custom{
+    width: 300px;
+    max-width: 90%;
+    color: #727fde;
+    border: 1px solid #727fde77;
+    background-color: #2200493d;
+    box-shadow: 0 0 5px #727fde88;
+}
+@media (max-width: 767.98px) {
+    .info-custom {
+        margin: 0 auto;
+        text-align: center;
+    }
+}
+.button-custom {
+    border: 1px solid #727fdeb4;
+    background-color: #2200493d;
+    box-shadow: 0 0 5px #727fde86;
+}
+.button-custom:hover {
+    box-shadow: 0 0 15px #727fde86;
+}
+.hero-vid-box{
+    position: absolute; 
+    right: 0%;
+}
+.hero-vid-box video{
+    height: 900px;
+    mix-blend-mode: lighten;
+}
