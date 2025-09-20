@@ -1,11 +1,11 @@
 .my-projects {
     position: relative;
     width: 100%;
-    margin-top: 100px;
-    margin-bottom: 700px;
+    margin-top: 80px;   
+    margin-bottom: 250px; 
 }
 .project-vidbox video {
-    width: 100%;
+    width: 90%;          
     max-width: 500px;
     border-radius: 20px;
     box-shadow: 0 0 10px lightgray;

@@ -146,6 +146,13 @@ header{
     color: rgb(252, 22, 22);
     box-shadow: 0 0 15px #727fde6f;
 }
+/* Ocultar videos pesados en móviles */
+@media (max-width: 767.98px) {
+    .blackhole-custom,
+    .hero-vid-box {
+        display: none !important;
+    }
+}
 /* Responsividad */
 @media (max-width: 991.98px) {
   .navbar .menu-custom {
@@ -161,6 +168,11 @@ header{
     width: 100%;
     text-align: center;
     margin: 6px 0;  
+  }
+  .navbar .menu-custom ul {
+    text-align: left;
+    padding-left: 1.2rem;
+    width: 100%;
   }
   .navbar .networks-custom {
     margin-top: 1rem;
